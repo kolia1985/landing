@@ -1,24 +1,181 @@
 {% extends "layout.html" %}
 {% block body %}
-   <!-- Carousel
+   <section class="section-hero center-block text-center bg-business with-cta" style="padding-top: 52px; padding-bottom: 60px;">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-8 col-md-offset-2">
+          <h1 class="text-white font-gotham-bold" style="font-size: 50px; padding-bottom: 0px;color: #494949;">
+            <span style="color: #5bbc2e;">Hire a business</span> to deliver<br class="visible-lg"> your next critical project
+          </h1>
+          <!-- <p class="subheading" style="padding-bottom: 27px;">
+            Upwork is an online workplace where clients work on projects <br>with
+            the professionals.
+          </p> -->
+<!--           <img src="{{ url_for('static', filename='img/banner.png') }}"> -->
+<!--           <a class="btn btn-white-border btn-block-xs">Get Started</a> -->
+        </div>
+      </div>
+    </div>
+  </section>
+  <section class="section-steps bg-light-grey text-center" style="padding-top: 36px; padding-bottom: 70px; border-bottom-style: none; margin-bottom: 50px;">
+    <div class="container">
+      <div class="row steps">
+        <div class="step col-sm-3 padding-left-0">
+          <i class="great-talent-icon"></i>
+          <h4 class="section-headline  text-uppercase font-gotham-medium">
+            Hire a team in <br /> a matter of days
+          </h4>
+          <p class="caption">
+
+          </p>
+        </div>
+        <div class="step col-sm-3">
+          <i class="perfect-match-icon"></i>
+          <h4 class="section-headline text-uppercase font-gotham-medium">
+            Tackle the biggest projects
+          </h4>
+          <p class="caption">
+          </p>
+        </div>
+        <div class="step col-sm-3 padding-right-0">
+          <i class="same-office-icon"></i>
+          <span class=""></span>
+          <h4 class="section-headline  text-uppercase font-gotham-medium">
+            Have your project managed <br /> from start to finish
+          </h4>
+          <p class="caption">
+          </p>
+        </div>
+        <div class="step col-sm-3 padding-right-0">
+          <i class="same-office-icon"></i>
+          <span class=""></span>
+          <h4 class="section-headline  text-uppercase font-gotham-medium">
+            Rely on a business for <br /> long-term needs
+          </h4>
+          <p class="caption">
+          </p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+<section class="section-quote text-center">
+  <div class="container">
+    <div class="row">
+      <div class="col-sm-5 bg-light-grey" style="margin: 0 50px;">
+        <p class="quote font-gotham-book">
+          <em>
+            Fantastic place to find good freelance work
+
+            As a writer, Upwork has given me an excellent opportunity to find interesting and varied work around the globe.
+          </em>
+        </p>
+        <p class="author font-gotham-book">
+         <span class="font-gotham-bold">Jay A</span><span class="hidden-xs"> // </span><br class="visible-xs">Company
+        </p>
+      </div>
+      <div class="col-sm-5 bg-light-grey" style="margin: 0 50px;">
+        <p class="quote font-gotham-book">
+          <em>
+            We wanted to ramp up quickly with the best people… Our bookkeepers, developers, designers, customer support—everything is through Upwork.
+          </em>
+        </p>
+        <p class="author font-gotham-book">
+         <span class="font-gotham-bold">Jay Shapiro</span><span class="hidden-xs"> // </span><br class="visible-xs">Founder, Infinite Monkeys
+        </p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="section-agencies text-center" style="padding-bottom: 110px;">
+  <div class="container padding-left-0 padding-right-0">
+    <h2 class="section-title font-gotham-bold">Access to the world’s top agencies (TODO: change text)</h2>
+
+  <!-- Carousel
     ================================================== -->
     <div id="myCarousel" class="carousel slide">
       <div class="carousel-inner">
-        <div class="item active">
-          <div class="container">
-            <div class="carousel-caption">
-              <h1>Find Businesses to deliver your next critical project</h1>
-              <p class="lead">Some projects need a team to deliver quickly and efficiently, but what happens when you don’t have the time to manage a team, you just want your project delivered to plan.</p>
-              <a class="btn btn-large btn-primary" href="#">Get started</a>
-            </div>
-          </div>
-        </div>
         <div class="item">
           <div class="container">
-            <div class="carousel-caption">
-              <h1>Find Businesses to deliver your next critical project</h1>
-              <p class="lead">If your project budget is $3,000 or more, you need a team or you would usually outsource to a company, then a Business on Upwork could be a great fit for your project need. </p>
-              <a class="btn btn-large btn-primary" href="#">Get started</a>
+            page 2 of agencies            
+          </div>
+        </div>
+        <div class="item active">
+          <div class="container">
+            <div class="row steps">
+              <div class="step col-sm-3 padding-left-0">
+                <article class="agency-profile">
+                  <div class="header">
+                    <a href="https://www.upwork.com/companies/~01a5ddd182baca1686">
+                    <img alt="Ergonized" src="https://odesk-prod-portraits.s3.amazonaws.com/Companies:1046958:CompanyLogoURL?AWSAccessKeyId=1XVAX3FNQZAFC9GJCFR2&amp;Expires=2147483647&amp;Signature=5Pc4IlYtySpTBPzdHA2kEs9jorA%3D&amp;1447146512" width="100" height="100" target="_blank"></a>
+                    <h5 class="name font-gotham-medium">Ergonized</h5>
+                    <i class="title font-gotham-bold agency-technologies">
+                      php development, WordPress, Yii, Symphony, Mobile Applications
+                    </i>
+                  </div>
+                  <div class="body">
+                    100% Job Success
+                  </div>
+                  <div class="footer">
+                    <a href="https://www.upwork.com/companies/~01a5ddd182baca1686">View Profile</a>
+                  </div>
+                </article>
+              </div>
+              <div class="step col-sm-3 padding-left-0">
+                <article class="agency-profile">
+                  <header>
+                    <a href="https://www.upwork.com/companies/~01a5ddd182baca1686">
+                    <img alt="Ergonized" src="https://odesk-prod-portraits.s3.amazonaws.com/Companies:2282553:CompanyLogoURL?AWSAccessKeyId=1XVAX3FNQZAFC9GJCFR2&Expires=2147483647&Signature=CecBQJAG4CxfMyLukdG2EYHERhc%3D&1447148990" width="100" height="100" target="_blank"></a>
+                    <h5 class="name font-gotham-medium">EBS Integrator</h5>
+                    <i class="title font-gotham-bold agency-technologies">
+                      Agile (Mobile & Web) Software Development
+                    </i>
+                  </header>
+                  <body>
+                    99% Job Success
+                  </body>
+                  <footer>
+                    <a href="https://www.upwork.com/companies/~01a5ddd182baca1686">View Profile</a>
+                  </footer>
+                </article>
+              </div>
+              <div class="step col-sm-3 padding-left-0">
+                <article class="agency-profile">
+                  <header>
+                    <a href="https://www.upwork.com/companies/~01a5ddd182baca1686">
+                    <img alt="Ergonized" src="https://odesk-prod-portraits.s3.amazonaws.com/Companies:753901:CompanyLogoURL?AWSAccessKeyId=1XVAX3FNQZAFC9GJCFR2&Expires=2147483647&Signature=TJCdAPhaWzac9s4p%2BH%2F7pI1fTJI%3D&1447149262" width="100" height="100" target="_blank"></a>
+                    <h5 class="name font-gotham-medium">e2e4</h5>
+                    <i class="title font-gotham-bold agency-technologies">
+                      Web and Mobile applications development
+                    </i>
+                  </header>
+                  <body>
+                    100% Job Success
+                  </body>
+                  <footer>
+                    <a href="https://www.upwork.com/companies/~01a5ddd182baca1686">View Profile</a>
+                  </footer>
+                </article>
+              </div>
+              <div class="step col-sm-3 padding-left-0">
+                <article class="agency-profile">
+                  <header>
+                    <a href="https://www.upwork.com/companies/~01a5ddd182baca1686">
+                    <img alt="Ergonized" src="https://odesk-prod-portraits.s3.amazonaws.com/Companies:1046958:CompanyLogoURL?AWSAccessKeyId=1XVAX3FNQZAFC9GJCFR2&amp;Expires=2147483647&amp;Signature=5Pc4IlYtySpTBPzdHA2kEs9jorA%3D&amp;1447146512" width="100" height="100" target="_blank"></a>
+                    <h5 class="name font-gotham-medium">Ergonized</h5>
+                    <i class="title font-gotham-bold agency-technologies">
+                      php development, WordPress, Yii, Symphony, Mobile Applications
+                    </i>
+                  </header>
+                  <body>
+                    100% Job Success
+                  </body>
+                  <footer>
+                    <a href="https://www.upwork.com/companies/~01a5ddd182baca1686">View Profile</a>
+                  </footer>
+                </article>
+              </div>             
             </div>
           </div>
         </div>
@@ -26,4 +183,9 @@
       <a class="left carousel-control" href="#myCarousel" data-slide="prev">&lsaquo;</a>
       <a class="right carousel-control" href="#myCarousel" data-slide="next">&rsaquo;</a>
     </div><!-- /.carousel -->
+
+  </div>
+</section>
+
+</div>
 {% endblock %}
