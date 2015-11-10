@@ -1,68 +1,54 @@
 {% extends "layout.html" %}
 {% block body %}
-   <section class="section-hero center-block text-center bg-business with-cta" style="padding-top: 52px; padding-bottom: 60px;">
-    <div class="container">
-      <div class="row">
-        <div class="col-md-8 col-md-offset-2">
-          <h1 class="text-white font-gotham-bold" style="font-size: 50px; padding-bottom: 0px;color: #494949;">
-            <span style="color: #5bbc2e;">Hire a business</span> to deliver<br class="visible-lg"> your next critical project
-          </h1>
-          <!-- <p class="subheading" style="padding-bottom: 27px;">
-            Upwork is an online workplace where clients work on projects <br>with
-            the professionals.
-          </p> -->
-<!--           <img src="{{ url_for('static', filename='img/banner.png') }}"> -->
+ <section class="section-hero center-block text-center bg-business with-cta" style="padding-top: 52px; padding-bottom: 0px;margin-bottom:0px;">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-8 col-md-offset-2">
+        <h1 class="text-white font-gotham-bold" style="font-size: 50px; padding-bottom: 0px;color: #494949;">
+          <span style="color: #5bbc2e;">Hire a business</span> to deliver your next critical project
+        </h1>
+        <!-- <p class="subheading" style="padding-bottom: 27px;">
+          Upwork is an online workplace where clients work on projects <br>with
+          the professionals.
+        </p> -->
+          <img src="{{ url_for('static', filename='img/banner.jpg') }}">
 <!--           <a class="btn btn-white-border btn-block-xs">Get Started</a> -->
-        </div>
       </div>
     </div>
-  </section>
-  <section class="section-steps bg-light-grey text-center" style="padding-top: 36px; padding-bottom: 70px; border-bottom-style: none; margin-bottom: 50px;">
-    <div class="container">
-      <div class="row steps">
-        <div class="step col-sm-3 padding-left-0">
-          <i class="great-talent-icon"></i>
-          <h4 class="section-headline  text-uppercase font-gotham-medium">
-            Hire a team in <br /> a matter of days
-          </h4>
-          <p class="caption">
-
-          </p>
-        </div>
-        <div class="step col-sm-3">
-          <i class="perfect-match-icon"></i>
-          <h4 class="section-headline text-uppercase font-gotham-medium">
-            Tackle the biggest projects
-          </h4>
-          <p class="caption">
-          </p>
-        </div>
-        <div class="step col-sm-3 padding-right-0">
-          <i class="same-office-icon"></i>
-          <span class=""></span>
-          <h4 class="section-headline  text-uppercase font-gotham-medium">
-            Have your project managed <br /> from start to finish
-          </h4>
-          <p class="caption">
-          </p>
-        </div>
-        <div class="step col-sm-3 padding-right-0">
-          <i class="same-office-icon"></i>
-          <span class=""></span>
-          <h4 class="section-headline  text-uppercase font-gotham-medium">
-            Rely on a business for <br /> long-term needs
-          </h4>
-          <p class="caption">
-          </p>
-        </div>
+  </div>
+</section>
+<section class="section-steps bg-light-grey text-center" style="padding-top: 30px; padding-bottom: 30px; border-bottom-style: none; margin-bottom: 30px;">
+  <div class="container">
+    <div class="row steps">
+      <div class="step col-sm-3 padding-left-0">
+        <h4 class="section-headline  text-uppercase font-gotham-medium">
+          Hire a team in <br /> a matter of days
+        </h4>
+      </div>
+      <div class="step col-sm-3">
+        <h4 class="section-headline text-uppercase font-gotham-medium">
+          Tackle the biggest projects
+        </h4>
+      </div>
+      <div class="step col-sm-3 padding-right-0">
+        <span class=""></span>
+        <h4 class="section-headline  text-uppercase font-gotham-medium">
+          Have your project managed <br /> from start to finish
+        </h4>
+      </div>
+      <div class="step col-sm-3 padding-right-0">
+        <h4 class="section-headline  text-uppercase font-gotham-medium">
+          Rely on a business for <br /> long-term needs
+        </h4>
       </div>
     </div>
-  </section>
+  </div>
+</section>
 
 <section class="section-quote text-center">
   <div class="container">
     <div class="row">
-      <div class="col-sm-5 bg-light-grey" style="margin: 0 50px;">
+      <div class="col-sm-5 bg-light-grey" style="margin: 0 50px;padding: 50px;">
         <p class="quote font-gotham-book">
           <em>
             Fantastic place to find good freelance work
@@ -74,7 +60,7 @@
          <span class="font-gotham-bold">Jay A</span><span class="hidden-xs"> // </span><br class="visible-xs">Company
         </p>
       </div>
-      <div class="col-sm-5 bg-light-grey" style="margin: 0 50px;">
+      <div class="col-sm-5 bg-light-grey" style="margin: 0 50px;padding: 50px;">
         <p class="quote font-gotham-book">
           <em>
             We wanted to ramp up quickly with the best people… Our bookkeepers, developers, designers, customer support—everything is through Upwork.
@@ -88,7 +74,7 @@
   </div>
 </section>
 
-<section class="section-agencies text-center" style="padding-bottom: 110px;">
+<section class="section-agencies text-center">
   <div class="container padding-left-0 padding-right-0">
     <h2 class="section-title font-gotham-bold">Access to the world’s top agencies (TODO: change text)</h2>
 
@@ -187,5 +173,98 @@
   </div>
 </section>
 
-</div>
+
+<section class="section-steps text-center" style="padding-bottom: 25px;">
+  <div class="container">
+    <h2 class="section-title font-gotham-bold">How to hire a business on Upwork</h2>
+    <div class="row steps">
+      <div class="step col-sm-3 padding-left-0">
+        <i class="post-job-icon"></i>
+        <h4 class="section-headline  text-uppercase font-gotham-medium">
+          Post a job
+        </h4>
+        <p class="caption">
+          Get amazing results working with the best programmers, designers, writers and other top pros on the planet. (#TODO:)
+        </p>
+      </div>
+      <div class="step col-sm-3">
+        <i class="perfect-match-icon"></i>
+        <h4 class="section-headline text-uppercase font-gotham-medium">
+          Invite agencies to apply to your job
+        </h4>
+        <p class="caption">
+          Start your project in hours, not weeks. Get a shortlist of top freelancers instantly, tapping into our hiring know-how and matching technology. (# TODO)
+        </p>
+      </div>
+      <div class="step col-sm-3 padding-right-0">
+        <i class="work-together-icon"></i>
+        <span class=""></span>
+        <h4 class="section-headline  text-uppercase font-gotham-medium">
+          Hire the best
+        </h4>
+        <p class="caption">
+          Collaborate in a secure online workplace using the latest communication tools. (# TODO)
+        </p>
+      </div>
+      <div class="step col-sm-3 padding-right-0">
+        <i class="pay-icon"></i>
+        <span class=""></span>
+        <h4 class="section-headline  text-uppercase font-gotham-medium">
+          Pay without worry
+        </h4>
+        <p class="caption">
+          Collaborate in a secure online workplace using the latest communication tools. (# TODO)
+        </p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="section-stats text-center bg-primary-dark">
+    <div class="container">
+      <div class="row">
+
+        <div class="col-sm-3">
+          <strong class="text-success font-gotham-bold">
+            10M+
+          </strong>
+
+          <p class="stats-description">
+            registered freelancers
+          </p>
+        </div>
+
+        <div class="col-sm-3">
+          <strong class="text-success font-gotham-bold">
+            $1B+
+          </strong>
+
+          <p class="stats-description">
+            worth of work done annually
+          </p>
+        </div>
+
+        <div class="col-sm-3">
+          <strong class="text-success font-gotham-bold">
+            3M
+          </strong>
+
+          <p class="stats-description">
+            jobs posted annually
+          </p>
+        </div>
+
+        <div class="col-sm-3">
+          <strong class="text-success font-gotham-bold">
+            4M+
+          </strong>
+
+          <p class="stats-description">
+            registered clients
+          </p>
+        </div>
+
+      </div>
+    </div>
+  </section>
 {% endblock %}
