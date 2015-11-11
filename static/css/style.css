@@ -268,6 +268,18 @@ article.agency-profile .footer {
   background-image: url('../img/find.png');
 }
 
+.section-steps .hire-team-icon {
+  background-image: url('../img/hire-team.png');
+}
+
+.section-steps .tackle-icon {
+  background-image: url('../img/tackle.png');
+}
+
+.section-steps .have-managed-icon {
+  background-image: url('../img/have_managed.png');
+}
+
 .section-steps .post-job-icon {
   background-image: url('../img/post_job.png');
 }
