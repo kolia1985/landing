@@ -1,0 +1,20 @@
+
+<div class="container">
+  <div class="row" ng-init="hovered=0">
+    {% for agency in agencies %}
+      {% include "profile.html" %}
+    {% endfor %}
+  </div>
+  <script>
+    $('.profile-tile-wrapper').hover(function(){
+     $.each($(this).children(), function( index, value ) {
+        $(value).addClass('hovered');
+     });
+    },
+    function(){
+       $.each($(this).children(), function( index, value ) {
+        $(value).removeClass('hovered');
+     });
+    });
+  </script>
+</div>

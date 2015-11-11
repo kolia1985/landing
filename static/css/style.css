@@ -323,3 +323,204 @@ article.agency-profile .footer {
 #howto-hire-section .pay {
   background: url("../img/pay-illustration.png") center center no-repeat;
 }
+
+/*profiles section*/
+
+.section-profiles {
+  padding-top: 80px;
+  padding-bottom: 80px;
+}
+
+.section-profiles .profile-tile figure h3 {
+  color: #494949;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  font-size: 18px;
+  margin-top: 36px;
+  margin-bottom: 13px;
+}
+
+.section-profiles .profile-tile figure .title {
+  font-size: 14px;
+  color: #494949;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  margin-bottom: 0;
+}
+
+.section-profiles .profile-tile .rate {
+  font-size: 18px;
+  color: #fff;
+  background-color: #5bbc2e;
+  margin-left: -20px;
+  margin-right: -20px;
+  line-height: 40px;
+  position: relative;
+}
+
+.section-profiles .profile-tile footer {
+  font-size: 12px;
+  line-height: 20px;
+  color: #494949;
+  padding-top: 20px;
+  text-align: left;
+}
+
+.section-profiles .profile-tile figure {
+  padding-top: 40px;
+  padding-bottom: 35px;
+}
+
+.section-profiles .profile-tile figure img {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  border: 3px solid #e0e0e0;
+}
+
+.section-profiles .profile-tile, .section-profiles .profile-tile-hovered, .section-profiles .get-started-tile {
+  height: 335px;
+  margin-bottom: 30px;
+  background-color: #fff;
+  border: 1px solid #e0e0e0;
+}
+
+.section-profiles .profile-tile-wrapper.padded {
+  -moz-transition: padding 1s ease-out;
+  -o-transition: padding 1s ease-out;
+  -webkit-transition: padding 1s ease-out;
+  transition: padding 1s ease-out;
+}
+
+.section-profiles .profile-tile {
+  position: relative;
+  padding: 0 20px 20px 20px;
+  cursor: pointer;
+  opacity: 1;
+  z-index: 10;
+}
+
+.section-profiles .profile-tile, .section-profiles .profile-tile-hovered {
+  -moz-transition: opacity .6s ease-out;
+  -o-transition: opacity .6s ease-out;
+  -webkit-transition: opacity .6s ease-out;
+  transition: opacity .6s ease-out;
+}
+
+.section-profiles .profile-tile, .section-profiles .profile-tile-hovered, .section-profiles .get-started-tile {
+  height: 364px;
+  margin-bottom: 40px;
+}
+
+.section-profiles .profile-tile footer .hours-billed {
+  background-image: url(../img/hours.svg);
+  background-position: 15px 0;
+  background-size: 21px 20px;
+  white-space: nowrap;
+  padding-left: 45px;
+  background-repeat: no-repeat;
+}
+
+.section-profiles .profile-tile footer .country {
+  background-image: url('../img/country.svg');
+  background-position: 10px 0;
+  background-size: 13px 20px;
+  padding-left: 35px;
+  background-repeat: no-repeat;
+}
+
+.section-profiles .profile-tile-hovered, .section-profiles .get-started-tile {
+  height: 335px;
+  margin-bottom: 30px;
+  background-color: #fff;
+  border: 1px solid #e0e0e0;
+}
+
+.section-profiles .profile-tile.expanded, .section-profiles .profile-tile-hovered {
+  border: 2px solid #37a000;
+}
+
+.section-profiles .profile-tile-hovered.hovered {
+  opacity: 1;
+}
+
+.profile-tile, .section-profiles .profile-tile-hovered {
+  -moz-transition: opacity .6s ease-out;
+  -o-transition: opacity .6s ease-out;
+  -webkit-transition: opacity .6s ease-out;
+  transition: opacity .6s ease-out;
+}
+
+.section-profiles .profile-tile-hovered .job-success {
+  font-size: 16px;
+  margin-bottom: 24px;
+  line-height: 30px;
+  color: #494949;
+  text-align: center;
+}
+
+.section-profiles .profile-tile-hovered {
+  padding: 30px 20px 0 20px;
+}
+
+ul.skill-bubbles {
+  list-style-type: none;
+  text-align: left;
+  margin: 0;
+  padding: 0;
+  font-size: 0;
+  height: 60px;
+  overflow: hidden;
+}
+
+ul.skill-bubbles li {
+  font-size: 12px;
+  height: 20px;
+  line-height: 20px;
+  background-color: #e0e0e0;
+  color: #494949;
+  padding: 0 9px;
+  border-radius: 3px;
+  display: inline-block;
+  margin-right: 10px;
+  margin-bottom: 10px;
+}
+
+.section-profiles .profile-tile-hovered .quick-view-cta {
+  position: absolute;
+  bottom: 30px;
+  left: 20px;
+  right: 20px;
+}
+
+.section-profiles .profile-tile-hovered .skill-bubbles {
+  height: 20px;
+  overflow: hidden;
+  text-align: center;
+}
+
+.section-profiles .profile-tile.hovered {
+  opacity: 0;
+}
+
+.section-profiles .profile-tile-hovered {
+  padding: 30px 20px 0 20px;
+  height: 364px;
+  position: absolute;
+  top: 0;
+  left: 15px;
+  right: 15px;
+  cursor: pointer;
+  opacity: 0;
+}
+
+.section-profiles .profile-tile-hovered .review {
+  font-size: 14px;
+  line-height: 22px;
+  margin-bottom: 24px;
+  font-style: italic;
+}
+
+/*profiles section ends*/
