@@ -19,6 +19,6 @@ def landingpage():
             'review': 'The company has done a superb work for us. The engineers we dealt with are top-notch professionals.',
             'skills': ['php', 'WordPress']
         }
-    ] * 4
+    ] * 8
     context = {'agencies': agencies}
     return render_template('landing.html', **context)
