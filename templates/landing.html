@@ -1,6 +1,6 @@
 {% extends "layout.html" %}
 {% block body %}
- <section class="section-hero center-block text-center bg-business with-cta" style="padding-top: 52px; padding-bottom: 0px;margin-bottom:0px;">
+ <section class="section-hero center-block text-center bg-business with-cta" style="padding-top: 52px; padding-bottom: 0px;margin-bottom:20px;">
   <div class="container">
     <div class="row">
       <div class="col-md-8 col-md-offset-2">
@@ -11,7 +11,6 @@
           Upwork is an online workplace where clients work on projects <br>with
           the professionals.
         </p> -->
-          <img src="{{ url_for('static', filename='img/banner.jpg') }}">
 <!--           <a class="btn btn-white-border btn-block-xs">Get Started</a> -->
       </div>
     </div>
@@ -21,6 +20,7 @@
   <div class="container">
     <div class="row steps">
       <div class="step col-sm-3 padding-left-0">
+        <i class="note-icon"></i>
         <h4 class="section-headline  text-uppercase font-gotham-medium">
           Hire a team in <br /> a matter of days
         </h4>
@@ -220,8 +220,10 @@
   </div>
 </section>
 
-<section class="section-stats text-center">
-
+<section class="section-regform text-center">
+  <h2 class="section-title font-gotham-bold">Create a Free Client Account</h2>
+  <iframe src="https://www.upwork.com/signup/create-account/client_direct_marketing_iframe?custom_location=howitworks_client">
+  </iframe>
 </section>
 
 <section class="section-stats text-center bg-primary-dark">
