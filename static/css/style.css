@@ -33,7 +33,7 @@ body {
   border-bottom: 1px solid #e0e0e0;
 }
 
-.section-quote .quote {
+.quote {
   background-image: url('../img/quote.png');
   background-position: top;
   background-repeat: no-repeat;
@@ -45,7 +45,7 @@ body {
   color: #666;
 }
 
-.section-quote .quote:after, .section-quote .quote:before {
+.quote:after, .quote:before {
   content: "";
   position: absolute;
   display: block;
@@ -55,12 +55,12 @@ body {
   margin-left: -205px;
 }
 
-.section-quote .quote:before {
+.quote:before {
   top: 5px;
   background: linear-gradient(to right,rgba(178,178,178,0.5) 0,rgba(178,178,178,0.5) 38.9%,rgba(178,178,178,0) 39%,rgba(178,178,178,0) 61%,rgba(178,178,178,0.5) 61.1%,rgba(178,178,178,0.5) 100%);
 }
 
-.section-quote .quote:after {
+.quote:after {
   bottom: 0;
   background-color: rgba(178,178,178,0.5);
 }
