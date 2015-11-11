@@ -292,3 +292,34 @@ article.agency-profile .footer {
   overflow-y:hidden;
 }
 
+#howto-hire-section .column:first-of-type {
+  padding-left: 0;
+}
+
+#howto-hire-section h3 {
+  font-size: 18px;
+  text-transform: uppercase;
+}
+
+#howto-hire-section .horiz-line-block h3 {
+  padding: 14px 0 20px 0;
+}
+
+#howto-hire-section .icon-holder {
+  width: 320px;
+  height: 175px;
+  border: 0;
+  background-size: 100% !important;
+}
+
+#howto-hire-section .hire {
+  background: url("../img/hire-illustration.png") center center no-repeat;
+}
+
+#howto-hire-section .work {
+  background: url("../img/work-illustration.png") center center no-repeat;
+}
+
+#howto-hire-section .pay {
+  background: url("../img/pay-illustration.png") center center no-repeat;
+}
