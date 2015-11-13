@@ -246,7 +246,7 @@ article.agency-profile .footer {
 }
 
 /*steps*/
-.section-steps .step i {
+.section-steps .step i, div.bordered i {
   display: inline-block;
   background-repeat: no-repeat;
   position: relative;
@@ -255,7 +255,7 @@ article.agency-profile .footer {
   margin-bottom: 40px;
 }
 
-.section-steps .step i:after {
+.section-steps .step i:after, div.bordered i:after {
   position:absolute;
   left:-10px;right:-10px;
   bottom:-38px;content:'';
@@ -541,3 +541,71 @@ ul.skill-bubbles li {
 }
 
 /*profiles section ends*/
+
+
+/* what say */
+#what_says {
+  background-image: url("../img/what_say_background.jpg");
+  background-size: 100%;
+  background-position: 0% 0%;
+  padding: 20px 0 30px 0;
+  background-repeat: no-repeat;
+}
+
+#what_says .col-xs-offset-2 {
+  margin-left: 12%;
+}
+
+div.bordered {
+  border: 2px solid #e0e0e0;
+  height: 230px;
+  text-align: center;
+}
+
+div.bordered h3 {
+  text-align: center;
+  margin-top: -10px;
+  height: 20px;
+  line-height: 20px;
+  font-size: 18px;
+  text-transform: uppercase;
+  color: #52a028;
+  font-weight: bold;
+}
+
+div.bordered h3 span {
+  background-color: white;
+}
+
+div.bordered p.title {
+  text-transform: uppercase;
+  height: 30px;
+  line-height: 30px;
+  margin: 15px 0;
+}
+
+div.bordered p.title span {
+  display: inline-block;
+  vertical-align: middle;
+  line-height: normal;
+}
+
+div.bordered p.cost {
+  font-weight: bold;
+}
+
+.note-cart {
+  background-image: url('../img/cart.png');
+}
+
+.note-money {
+  background-image: url('../img/money.png');
+}
+
+.note-mobile {
+  background-image: url('../img/mobile.png');
+}
+
+.section-message {
+    padding: 66px 0 25px 0
+}
