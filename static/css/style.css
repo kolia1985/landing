@@ -5,6 +5,10 @@ body {
     
 }
 
+.section-headline {
+  font-size: 16px;
+}
+
 .header-bar {
   height: 67px;
   padding-bottom: 13px;
