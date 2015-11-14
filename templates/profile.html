@@ -1,35 +1,49 @@
-<div class="profile-tile-wrapper col-lg-3 col-md-4 col-sm-6 ng-scope" id="profile-1">
-  <article class="profile-tile ng-animate hovered-add" ng-mouseenter="hovered=1" ng-mouseleave="hovered=0" ng-class="{ hovered: hovered===1 }" ng-click="expandProfile()" olog-trigger="" olog-name="click" olog-event="click" olog-location="visitor_skill_page" olog-sublocation="freelancer_tile" olog-data="[{&quot;visitor_id&quot;: &quot;172.27.251.97.1429610785281251&quot;}, {&quot;timestamp&quot;: &quot;1447230839&quot;}, {&quot;skill_page&quot;: &quot;html5&quot;}, {&quot;position&quot;: &quot;1&quot;}, {&quot;type&quot;: &quot;contractor&quot;}, {&quot;id&quot;: &quot;~014cd3c65c001fefb1&quot;}]" data-ng-animate="2" style="transition-delay: -0.6s; -webkit-transition-delay: -0.6s;">
-    <header>
+<div class="profile-tile-wrapper agency-profile col-lg-3 col-md-4 col-sm-6">
+  <article class="profile-tile hovered-add">
+    <div style="padding: 0 20px 0 20px;">
       <figure>
-        <img src="{{ agency.logo }}">
+        <div class="logo">
+          <img src="{{ agency.logo }}">
+        </div>
         <figcaption>
-          <h3 class="font-gotham-medium" title="Ernesto C.">{{ agency.name }}</h3>
-          <p class="title font-gotham-light" title="{{ agency.description }}">
-            {{ agency.description }}                
-          </p>
+          <h3 class="name font-gotham-medium" title="{{ agency.name }}">{{ agency.name }}</h3>
         </figcaption>
       </figure>
-    </header>
-    <footer class="font-gotham-light">
-      <div class="row">
-        <div class="hours-billed col-xs-6">{{ agency.total_jobs }} job</div>
-        <div class="country col-xs-6">{{ agency.country }}</div>
+      <div class="row icons">
+        <div>
+          <div class="col-lg-2 item" style="width: 145px;padding: 0px;">
+            <p class="title"><span>Job Success</span></p>
+            <i class="star-icon"></i>
+            <p class="value">{{ agency.job_success }}%</p>
+          </div>
+          <div class="col-lg-2 item" style="width: 145px;padding: 0px;">
+            <p class="title"><span>Hours</span></p>
+            <i class="clock-icon"></i>
+            <p class="value">{{ agency.hours }}</p>
+          </div>
+        </div>
       </div>
+    </div>
+    <footer class="bg-light-grey skills">
+      <ul class="skill-bubbles font-gotham-light">
+        {% for skill in agency.skills %}
+          <li>{{ skill }}</li>
+        {% endfor %}
+      </ul>
     </footer>
   </article>
-  <div class="profile-tile-hovered ng-animate hovered-add" ng-mouseenter="hovered=1" ng-mouseleave="hovered=0" ng-class="{ hovered: hovered===1 }" ng-click="expandProfile()" olog-trigger="" olog-name="click" olog-event="click" olog-location="visitor_skill_page" olog-sublocation="freelancer_tile" olog-data="[{&quot;visitor_id&quot;: &quot;172.27.251.97.1429610785281251&quot;}, {&quot;timestamp&quot;: &quot;1447230839&quot;}, {&quot;skill_page&quot;: &quot;html5&quot;}, {&quot;position&quot;: &quot;1&quot;}, {&quot;type&quot;: &quot;contractor&quot;}, {&quot;id&quot;: &quot;~014cd3c65c001fefb1&quot;}]" data-ng-animate="2" style="transition-delay: -0.6s; -webkit-transition-delay: -0.6s;">
+  <div class="profile-tile-hovered" ng-mouseenter="hovered=1" style="transition-delay: -0.6s; -webkit-transition-delay: -0.6s;">
     <div class="job-success font-gotham-medium">
-      <span class="jss-number">{{ agency.job_success }}%</span> JOB SUCCESS            
+      <span class="name">{{ agency.job_name }}</span>
     </div>
     <div class="review font-gotham-light">{{ agency.review }}</div>
-    <ul class="skill-bubbles font-gotham-light">
-      {% for skill in agency.skills %}
-        <li>{{ skill }}</li>
-      {% endfor %}
-    </ul>
+    <div class="row icons">
+      <p class="title"><span>Job Cost</span></p>
+      <i class="note-money"></i>
+      <p class="value">${{ agency.cost }}</p>
+    </div>
     <div class="quick-view-cta">
-      <a class="btn btn-default btn-block-xs" olog-trigger="" olog-name="click" olog-event="click" olog-location="visitor_skill_page" olog-sublocation="freelancer_tile_quickview_cta" olog-data="[{&quot;visitor_id&quot;: &quot;172.27.251.97.1429610785281251&quot;}, {&quot;timestamp&quot;: &quot;1447230839&quot;}, {&quot;skill_page&quot;: &quot;html5&quot;}, {&quot;position&quot;: &quot;1&quot;}, {&quot;type&quot;: &quot;contractor&quot;}, {&quot;id&quot;: &quot;~014cd3c65c001fefb1&quot;}]">View Profile</a>
+      <a class="btn btn-default btn-block-xs">View Profile</a>
     </div>
   </div>
 </div>

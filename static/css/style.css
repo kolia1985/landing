@@ -250,7 +250,7 @@ article.agency-profile .footer {
 }
 
 /*steps*/
-.section-steps .step i, div.bordered i {
+.section-steps .step i, div.bordered i, .agency-profile i {
   display: inline-block;
   background-repeat: no-repeat;
   position: relative;
@@ -259,7 +259,7 @@ article.agency-profile .footer {
   margin-bottom: 40px;
 }
 
-.section-steps .step i:after, div.bordered i:after {
+.section-steps .step i:after, div.bordered i:after, .agency-profile i:after {
   position:absolute;
   left:-10px;right:-10px;
   bottom:-38px;content:'';
@@ -380,25 +380,23 @@ article.agency-profile .footer {
   font-size: 12px;
   line-height: 20px;
   color: #494949;
-  padding-top: 20px;
   text-align: left;
 }
 
 .section-profiles .profile-tile figure {
-  padding-top: 40px;
-  padding-bottom: 35px;
+  padding-top: 20px;
+  padding-bottom: 10px;
 }
 
 .section-profiles .profile-tile figure img {
   width: 100px;
   height: 100px;
   border-radius: 50%;
-  border: 3px solid #e0e0e0;
+  border: 3px solid #52a028;
 }
 
 .section-profiles .profile-tile, .section-profiles .profile-tile-hovered, .section-profiles .get-started-tile {
   height: 335px;
-  margin-bottom: 30px;
   background-color: #fff;
   border: 1px solid #e0e0e0;
 }
@@ -412,7 +410,7 @@ article.agency-profile .footer {
 
 .section-profiles .profile-tile {
   position: relative;
-  padding: 0 20px 20px 20px;
+  padding: 0;
   cursor: pointer;
   opacity: 1;
   z-index: 10;
@@ -426,8 +424,7 @@ article.agency-profile .footer {
 }
 
 .section-profiles .profile-tile, .section-profiles .profile-tile-hovered, .section-profiles .get-started-tile {
-  height: 364px;
-  margin-bottom: 40px;
+  height: 420px;
 }
 
 .section-profiles .profile-tile footer .hours-billed {
@@ -470,7 +467,7 @@ article.agency-profile .footer {
 }
 
 .section-profiles .profile-tile-hovered .job-success {
-  font-size: 16px;
+  font-size: 14px;
   margin-bottom: 24px;
   line-height: 30px;
   color: #494949;
@@ -487,7 +484,6 @@ ul.skill-bubbles {
   margin: 0;
   padding: 0;
   font-size: 0;
-  height: 60px;
   overflow: hidden;
 }
 
@@ -495,13 +491,13 @@ ul.skill-bubbles li {
   font-size: 12px;
   height: 20px;
   line-height: 20px;
-  background-color: #e0e0e0;
-  color: #494949;
+  background-color: #5bbc2e;
+  color: #fff;
   padding: 0 9px;
   border-radius: 3px;
   display: inline-block;
   margin-right: 10px;
-  margin-bottom: 10px;
+  margin-bottom: 0;
 }
 
 .section-profiles .profile-tile-hovered .quick-view-cta {
@@ -523,7 +519,8 @@ ul.skill-bubbles li {
 
 .section-profiles .profile-tile-hovered {
   padding: 30px 20px 0 20px;
-  height: 364px;
+  height: 420px;
+  margin-top: 10px;
   position: absolute;
   top: 0;
   left: 15px;
@@ -612,4 +609,55 @@ div.bordered p.cost {
 
 .section-message {
     padding: 66px 0 25px 0
+}
+
+/*agencies*/
+
+.agency-profile div.logo {
+  display: inline-block;
+  background-repeat: no-repeat;
+  position: relative;
+}
+
+.agency-profile div.logo:after {
+  position: absolute;
+  left: -10px;
+  right: -10px;
+  bottom: -20px;
+  content: '';
+  border-bottom: 3px solid #e0e0e0;
+  margin-top: 24px;
+  border-bottom-width: 2px;
+}
+
+.agency-profile .name, .agency-profile .title {
+  text-transform: uppercase;
+}
+
+.agency-profile .icons .item {
+  text-align: center;
+}
+
+.agency-profile .icons .item .title {
+  text-transform: uppercase;
+}
+
+.agency-profile .star-icon {
+  background-image: url('../img/star.png');
+}
+
+.agency-profile .clock-icon {
+  background-image: url('../img/clock.png');
+}
+
+.agency-profile .value {
+  font-weight: bold;
+}
+
+.agency-profile body .row {
+  padding: 10px;
+}
+
+.agency-profile .skills {
+  padding: 10px;
 }
